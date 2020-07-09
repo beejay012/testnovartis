@@ -1,62 +1,14 @@
-# TypeScript Next.js example
+First, i wanted to say that that i have work the whole weekend trying to have something good to give you. I unfortunately only have the shape of the pie chart and the line chart and i didn't succeed to link the database to the charts. I have immedieatly seen what correspond to the example for the object to code using Material UI. For the database, i have succeed to make some request to see what's the answer were, with a lot of details like reactionmeddrapt for example that were giving the drug adverse data. But, i didn't find how to relate the front and the back. I have been focus on the Task 1, so couldn't do the other part.
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
 
-## Deploy your own
+TECHNICAL QUESTIONS
 
-Deploy the example using [Vercel](https://vercel.com):
+A. I haven't used Lerna before so i can't describe it with my own words but i have done researches and it's a tool that helps when you have multiple packages to handle like npm and git for example.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
+B. Lerna is mostly used for Javascript Utilities and libraries whereas Yarn is considerated as a Front end Package Manager.
 
-## How to use it?
+C.
 
-### Using `create-next-app`
+D.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript
-cd with-typescript
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
-
-```
-npm install --save-dev typescript
-```
-
-To enable TypeScript's features, we install the type declarations for React and Node.
-
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
-
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+E.
